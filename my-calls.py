@@ -1,6 +1,6 @@
 import httpx
 
-url = "https://fuzzy-doodle-v66v776jv4g3wp4g.github.dev/"
+url = "https://fuzzy-doodle-v66v776jv4g3wp4g-5000.app.github.dev/"
 
 response = httpx.get(url)
 print(response.status_code)
@@ -11,7 +11,7 @@ print(response.status_code)
 print(response.text)
 
 mydata = {
-    "text": "Hello Phil!",
+    "text": "Hello Mehnaz!",
     "param2": "Making a POST request",
     "body": "my own value"
 }
